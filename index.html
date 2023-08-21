@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Dosis:wght@400;500;600;700&family=Eczar:wght@400;500;600;700;800&family=Lato:wght@300;400;700&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700&family=Tilt+Prism&display=swap"
+            rel="stylesheet"
+        />
+        <link
+            rel="stylesheet"
+            href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+        />
+        <link rel="stylesheet" href="css/main.css" />
+        <link
+            rel="icon"
+            href="https://pbs.twimg.com/profile_images/1683325380441128960/yRsRRjGO_400x400.jpg"
+            type="image/x-icon"
+        />
+        <title>Home / X</title>
+    </head>
+    <body class="bg-black text-white">
+        <div class="max-w-desk mx-auto grid grid-cols-[1.5fr_3.5fr_2fr]">
+            <div class="h-[100vh] relative">
+                <div class="fixed top-0">
+                    <div class="logo w-12 mt-2">
+                        <img
+                            src="https://seeklogo.com/images/T/twitter-x-logo-101C7D2420-seeklogo.com.png?v=638258077300000000"
+                            alt="logo"
+                        />
+                    </div>
+                    <nav class="navigation flex flex-col mt-6">
+                        <div class="nav py-4 flex gap-4 items-end justify-start">
+                            <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                height="30"
+                                viewBox="0 -960 960 960"
+                                width="38"
+                                class="fill-white"
+                            >
+                                <path
+                                    d="M220-180h150v-250h220v250h150v-390L480-765 220-570v390Zm-60 60v-480l320-240 320 240v480H530v-250H430v250H160Zm320-353Z"
+                                />
+                            </svg>
+                            <p class="text-2xl font-bold">Home</p>
+                        </div>
+                        <div class="nav py-3 flex gap-4 items-end">
+                            <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                height="30"
+                                viewBox="0 -960 960 960"
+                                width="38"
+                                class="fill-white"
+                            >
+                                <path
+                                    d="M796-121 533-384q-30 26-69.959 40.5T378-329q-108.162 0-183.081-75Q120-479 120-585t75-181q75-75 181.5-75t181 75Q632-691 632-584.85 632-542 618-502q-14 40-42 75l264 262-44 44ZM377-389q81.25 0 138.125-57.5T572-585q0-81-56.875-138.5T377-781q-82.083 0-139.542 57.5Q180-666 180-585t57.458 138.5Q294.917-389 377-389Z"
+                                />
+                            </svg>
+                            <p class="text-xl">Explore</p>
+                        </div>
+                        <div class="nav py-3 flex gap-4 items-end">
+                            <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                height="30"
+                                viewBox="0 -960 960 960"
+                                width="38"
+                                class="fill-white"
+                            >
+                                <path
+                                    d="M160-200v-60h80v-304q0-84 49.5-150.5T420-798v-22q0-25 17.5-42.5T480-880q25 0 42.5 17.5T540-820v22q81 17 130.5 83.5T720-564v304h80v60H160Zm320-302Zm0 422q-33 0-56.5-23.5T400-160h160q0 33-23.5 56.5T480-80ZM300-260h360v-304q0-75-52.5-127.5T480-744q-75 0-127.5 52.5T300-564v304Z"
+                                />
+                            </svg>
+                            <p class="text-xl">Notifications</p>
+                        </div>
+                        <div class="nav py-3 flex gap-4 items-end">
+                            <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                height="30"
+                                viewBox="0 -960 960 960"
+                                width="38"
+                                class="fill-white"
+                            >
+                                <path
+                                    d="M140-160q-24 0-42-18t-18-42v-520q0-24 18-42t42-18h680q24 0 42 18t18 42v520q0 24-18 42t-42 18H140Zm340-302L140-685v465h680v-465L480-462Zm0-60 336-218H145l335 218ZM140-685v-55 520-465Z"
+                                />
+                            </svg>
+                            <p class="text-xl">Messages</p>
+                        </div>
+                        <div class="nav py-3 flex gap-4 items-end">
+                            <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                height="30"
+                                viewBox="0 -960 960 960"
+                                width="38"
+                                class="fill-white"
+                            >
+                                <path
+                                    d="M300-286q12 0 21-9t9-21q0-12-9-21t-21-9q-12 0-21 9t-9 21q0 12 9 21t21 9Zm0-164q12 0 21-9t9-21q0-12-9-21t-21-9q-12 0-21 9t-9 21q0 12 9 21t21 9Zm0-164q12 0 21-9t9-21q0-12-9-21t-21-9q-12 0-21 9t-9 21q0 12 9 21t21 9Zm132 328h244v-60H432v60Zm0-164h244v-60H432v60Zm0-164h244v-60H432v60ZM180-120q-24 0-42-18t-18-42v-600q0-24 18-42t42-18h600q24 0 42 18t18 42v600q0 24-18 42t-42 18H180Zm0-60h600v-600H180v600Zm0-600v600-600Z"
+                                />
+                            </svg>
+                            <p class="text-xl">Lists</p>
+                        </div>
+                        <div class="nav py-3 flex gap-4 items-end">
+                            <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                height="30"
+                                viewBox="0 -960 960 960"
+                                width="38"
+                                class="fill-white"
+                            >
+                                <path
+                                    d="M200-120v-665q0-24 18-42t42-18h440q24 0 42 18t18 42v665L480-240 200-120Zm60-91 220-93 220 93v-574H260v574Zm0-574h440-440Z"
+                                />
+                            </svg>
+                            <p class="text-xl">Bookmarks</p>
+                        </div>
+                        <div class="nav py-3 flex gap-4 items-end">
+                            <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                height="30"
+                                viewBox="0 -960 960 960"
+                                width="38"
+                                class="fill-white"
+                            >
+                                <path
+                                    d="M358-319q30.938 0 52.969-21.737Q433-362.475 433-393t-22.031-52.263Q388.938-467 358-467q-30.112 0-51.556 21.737Q285-423.525 285-393t21.444 52.263Q327.888-319 358-319Zm244 0q30.525 0 52.263-21.737Q676-362.475 676-393t-21.737-52.263Q632.525-467 602-467t-52.263 21.737Q528-423.525 528-393t21.737 52.263Q571.475-319 602-319ZM479.956-533q30.955 0 53-22.044 22.044-22.045 22.044-53Q555-639 532.969-660 510.938-681 480-681q-30.112 0-51.556 21.444T407-608q0 30.938 21 52.969Q449-533 479.956-533Zm.31 453q-82.734 0-155.5-31.5t-127.266-86q-54.5-54.5-86-127.341Q80-397.681 80-480.5q0-82.819 31.5-155.659Q143-709 197.5-763t127.341-85.5Q397.681-880 480.5-880q82.819 0 155.659 31.5Q709-817 763-763t85.5 127Q880-563 880-480.266q0 82.734-31.5 155.5T763-197.684q-54 54.316-127 86Q563-80 480.266-80Zm.234-60Q622-140 721-239.5t99-241Q820-622 721.188-721 622.375-820 480-820q-141 0-240.5 98.812Q140-622.375 140-480q0 141 99.5 240.5t241 99.5Zm-.5-340Z"
+                                />
+                            </svg>
+                            <p class="text-xl">Communities</p>
+                        </div>
+                        <div class="nav py-3 flex gap-4 items-end">
+                            <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                height="30"
+                                viewBox="0 -960 960 960"
+                                width="38"
+                                class="fill-white"
+                            >
+                                <path
+                                    d="m346-60-76-130-151-31 17-147-96-112 96-111-17-147 151-31 76-131 134 62 134-62 77 131 150 31-17 147 96 111-96 112 17 147-150 31-77 130-134-62-134 62Zm27-79 107-45 110 45 67-100 117-30-12-119 81-92-81-94 12-119-117-28-69-100-108 45-110-45-67 100-117 28 12 119-81 94 81 92-12 121 117 28 70 100Zm107-341Zm-43 133 227-225-45-41-182 180-95-99-46 45 141 140Z"
+                                />
+                            </svg>
+                            <p class="text-xl">Verified</p>
+                        </div>
+                        <div class="nav py-3 flex gap-4 items-end">
+                            <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                height="30"
+                                viewBox="0 -960 960 960"
+                                width="38"
+                                class="fill-white"
+                            >
+                                <path
+                                    d="M480-481q-66 0-108-42t-42-108q0-66 42-108t108-42q66 0 108 42t42 108q0 66-42 108t-108 42ZM160-160v-94q0-38 19-65t49-41q67-30 128.5-45T480-420q62 0 123 15.5t127.921 44.694q31.301 14.126 50.19 40.966Q800-292 800-254v94H160Zm60-60h520v-34q0-16-9.5-30.5T707-306q-64-31-117-42.5T480-360q-57 0-111 11.5T252-306q-14 7-23 21.5t-9 30.5v34Zm260-321q39 0 64.5-25.5T570-631q0-39-25.5-64.5T480-721q-39 0-64.5 25.5T390-631q0 39 25.5 64.5T480-541Zm0-90Zm0 411Z"
+                                />
+                            </svg>
+                            <p class="text-xl">Profile</p>
+                        </div>
+                        <div class="nav py-3 flex gap-4 items-end">
+                            <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                height="30"
+                                viewBox="0 -960 960 960"
+                                width="38"
+                                class="fill-white"
+                            >
+                                <path
+                                    d="M266.118-430Q287-430 301.5-444.618q14.5-14.617 14.5-35.5Q316-501 301.382-515.5q-14.617-14.5-35.5-14.5Q245-530 230.5-515.382q-14.5 14.617-14.5 35.5Q216-459 230.618-444.5q14.617 14.5 35.5 14.5Zm214 0Q501-430 515.5-444.618q14.5-14.617 14.5-35.5Q530-501 515.382-515.5q-14.617-14.5-35.5-14.5Q459-530 444.5-515.382q-14.5 14.617-14.5 35.5Q430-459 444.618-444.5q14.617 14.5 35.5 14.5Zm213 0Q714-430 728.5-444.618q14.5-14.617 14.5-35.5Q743-501 728.382-515.5q-14.617-14.5-35.5-14.5Q672-530 657.5-515.382q-14.5 14.617-14.5 35.5Q643-459 657.618-444.5q14.617 14.5 35.5 14.5ZM480.266-80q-82.734 0-155.5-31.5t-127.266-86q-54.5-54.5-86-127.341Q80-397.681 80-480.5q0-82.819 31.5-155.659Q143-709 197.5-763t127.341-85.5Q397.681-880 480.5-880q82.819 0 155.659 31.5Q709-817 763-763t85.5 127Q880-563 880-480.266q0 82.734-31.5 155.5T763-197.684q-54 54.316-127 86Q563-80 480.266-80Zm.234-60Q622-140 721-239.5t99-241Q820-622 721.188-721 622.375-820 480-820q-141 0-240.5 98.812Q140-622.375 140-480q0 141 99.5 240.5t241 99.5Zm-.5-340Z"
+                                />
+                            </svg>
+                            <p class="text-xl">More</p>
+                        </div>
+                    </nav>
+                    <div class="flex flex-col justify-between h-[20vh] md:h-[25vh] ">
+                        <button
+                            class="bg-primary hover:bg-[#684BE6] font-bold text-lg rounded-full w-[260px] py-3 mt-2 mr-4 px-4"
+                        >
+                            Post
+                        </button>
+                        <div class="id mb-2 hover:cursor-pointer w-full">
+                            <div class="flex justify-between pr-10 w-full">
+                                <div
+                                    class="pfp flex gap-3 items-center"
+                                >
+                                    <img src="imgs/pfp.jpeg" class=" rounded-full h-10 w-10 " alt="">
+                                    <div
+                                        class="username bg-red-700 md:bg-black md:block hidden"
+                                    >
+                                        <p>kenister</p>
+                                        <p class="text-slate-500">@ken9090</p>
+                                    </div>
+                                </div>
+                                <div class="md:block hidden font-bold">
+                                    <p>. . .</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="border-x-[0.5px] border-slate-700 relative">
+                <div class="h-[120px] border-b-[0.5px] border-slate-700 sticky top-0 bg-black">
+                    <h1 class="h-[40%] text-2xl font-bold p-4">Home</h1>
+                    <div
+                        class="flex items-center justify-around p-6 text-lg hover:cursor-pointer"
+                    >
+                        <h3
+                            class="font-bold underline decoration-solid decoration-primary decoration-4 underline-offset-[22px]"
+                        >
+                            For you
+                        </h3>
+                        <h3>Following</h3>
+                    </div>
+                </div>
+                <div class="h-[17vh] border-b-[0.5px] border-slate-700">
+                    <div class="p-4 flex gap-4 items-center">
+                        <img
+                            class="h-10 rounded-full cursor-pointer"
+                            src="imgs/pfp.jpeg"
+                            alt=""
+                        />
+                        <input type="text" placeholder="What is happening?!" class="outline-none w-full break-all bg-black text-xl text-white"></input>
+                    </div>
+                    <div class="p-4 flex items-center w-full justify-between">
+                        <div class="icons flex gap-2 ml-12 hover:cursor-pointer">
+                            <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                height="20"
+                                viewBox="0 -960 960 960"
+                                width="28"
+                                class="fill-primary"
+                            >
+                                <path
+                                    d="M100-200q-24.75 0-42.375-17.625T40-260v-440q0-24.75 17.625-42.375T100-760h440q24.75 0 42.375 17.625T600-700v440q0 24.75-17.625 42.375T540-200H100Zm620-320q-17 0-28.5-11.5T680-560v-160q0-17 11.5-28.5T720-760h160q17 0 28.5 11.5T920-720v160q0 17-11.5 28.5T880-520H720Zm20-60h120v-120H740v120ZM100-260h440v-440H100v440Zm60-100h320L375-500l-75 100-55-73-85 113Zm560 160q-17 0-28.5-11.5T680-240v-160q0-17 11.5-28.5T720-440h160q17 0 28.5 11.5T920-400v160q0 17-11.5 28.5T880-200H720Zm20-60h120v-120H740v120Zm-640 0v-440 440Zm640-320v-120 120Zm0 320v-120 120Z"
+                                />
+                            </svg>
+                            <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                height="20"
+                                viewBox="0 -960 960 960"
+                                width="28"
+                                class="fill-primary"
+                            >
+                                <path
+                                    d="M330-400h61q12.325 0 20.663-9Q420-418 420-430v-40h-30v40h-60v-100h88q0-12-8.05-21T390-560h-60q-12.75 0-21.375 8.625T300-530v100q0 12.75 8.625 21.375T330-400Zm135 0h30v-160h-30v160Zm75 0h30v-60h70v-30h-70v-40h90v-30H540v160ZM180-120q-24 0-42-18t-18-42v-600q0-24 18-42t42-18h600q24 0 42 18t18 42v600q0 24-18 42t-42 18H180Zm0-60h600v-600H180v600Zm0-600v600-600Z"
+                                />
+                            </svg>
+                            <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                height="20"
+                                viewBox="0 -960 960 960"
+                                width="28"
+                                class="fill-primary"
+                            >
+                                <path
+                                    d="M710-140q-63 0-106.5-43.5T560-290q0-63 43.5-106.5T710-440q63 0 106.5 43.5T860-290q0 63-43.5 106.5T710-140Zm0-60q38 0 64-26t26-64q0-38-26-64t-64-26q-38 0-64 26t-26 64q0 38 26 64t64 26Zm-590-60v-60h360v60H120Zm130-260q-63 0-106.5-43.5T100-670q0-63 43.5-106.5T250-820q63 0 106.5 43.5T400-670q0 63-43.5 106.5T250-520Zm0-60q38 0 64-26t26-64q0-38-26-64t-64-26q-38 0-64 26t-26 64q0 38 26 64t64 26Zm230-60v-60h360v60H480Zm230 350ZM250-670Z"
+                                />
+                            </svg>
+                            <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                height="20"
+                                viewBox="0 -960 960 960"
+                                width="28"
+                                class="fill-primary"
+                            >
+                                <path
+                                    d="M626-533q22.5 0 38.25-15.75T680-587q0-22.5-15.75-38.25T626-641q-22.5 0-38.25 15.75T572-587q0 22.5 15.75 38.25T626-533Zm-292 0q22.5 0 38.25-15.75T388-587q0-22.5-15.75-38.25T334-641q-22.5 0-38.25 15.75T280-587q0 22.5 15.75 38.25T334-533Zm146 272q66 0 121.5-35.5T682-393h-52q-23 40-63 61.5T480.5-310q-46.5 0-87-21T331-393h-53q26 61 81 96.5T480-261Zm0 181q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-400Zm0 340q142.375 0 241.188-98.812Q820-337.625 820-480t-98.812-241.188Q622.375-820 480-820t-241.188 98.812Q140-622.375 140-480t98.812 241.188Q337.625-140 480-140Z"
+                                />
+                            </svg>
+                            <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                height="20"
+                                viewBox="0 -960 960 960"
+                                width="28"
+                                class="fill-primary"
+                            >
+                                <path
+                                    d="m800-134 28-28-75-75v-112h-40v128l87 87Zm-620 14q-24.75 0-42.375-17.625T120-180v-600q0-24.75 17.625-42.375T180-840h600q24.75 0 42.375 17.625T840-780v329q-14-8-29.5-13t-30.5-8v-308H180v600h309q4 16 9.023 31.172Q503.045-133.655 510-120H180Zm0-107v47-600 308-4 249Zm100-53h211q4-16 9-31t13-29H280v60Zm0-170h344q14-7 27-11.5t29-8.5v-40H280v60Zm0-170h400v-60H280v60ZM732.5-41Q655-41 600-96.5T545-228q0-78.435 54.99-133.717Q654.98-417 733-417q77 0 132.5 55.283Q921-306.435 921-228q0 76-55.5 131.5T732.5-41Z"
+                                />
+                            </svg>
+                            <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                height="20"
+                                viewBox="0 -960 960 960"
+                                width="28"
+                                class="fill-primary"
+                            >
+                                <path
+                                    d="M480.089-490Q509-490 529.5-510.589q20.5-20.588 20.5-49.5Q550-589 529.411-609.5q-20.588-20.5-49.5-20.5Q451-630 430.5-609.411q-20.5 20.588-20.5 49.5Q410-531 430.589-510.5q20.588 20.5 49.5 20.5ZM480-159q133-121 196.5-219.5T740-552q0-117.79-75.292-192.895Q589.417-820 480-820t-184.708 75.105Q220-669.79 220-552q0 75 65 173.5T480-159Zm0 79Q319-217 239.5-334.5T160-552q0-150 96.5-239T480-880q127 0 223.5 89T800-552q0 100-79.5 217.5T480-80Zm0-480Z"
+                                />
+                            </svg>
+                        </div>
+                        <button
+                            class="bg-primary hover:bg-[#684BE6] font-bold text-lg rounded-full px-3 py-1 w-[10%]"
+                        >
+                            Post
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="relative overflow-hidden">
+                <div class="pl-8 flex flex-col gap-2">
+                    <div class="fixed top-0 bg-black">
+                        <div class="h-[50px] bg-slate-700 my-2 w-[370px] rounded-full flex gap-4 items-center px-4 ">
+                            <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    height="25"
+                                    viewBox="0 -960 960 960"
+                                    width="28"
+                                    class="fill-[#aaa]"
+                                >
+                                    <path
+                                        d="M796-121 533-384q-30 26-69.959 40.5T378-329q-108.162 0-183.081-75Q120-479 120-585t75-181q75-75 181.5-75t181 75Q632-691 632-584.85 632-542 618-502q-14 40-42 75l264 262-44 44ZM377-389q81.25 0 138.125-57.5T572-585q0-81-56.875-138.5T377-781q-82.083 0-139.542 57.5Q180-666 180-585t57.458 138.5Q294.917-389 377-389Z"
+                                    />
+                                </svg>
+                            <input type="text" placeholder="Search" class="text-white text-base bg-inherit w-full outline-none">
+                        </div>
+                    </div>
+                    <div class="w-full bg-slate-700 my-2 rounded-3xl p-4 mt-[70px]">
+                        <h1 class="text-xl font-bold text-white">Subscribe to Premium</h1>
+                        <p class="text-base text-white font-semibold my-2">Subscribe to unlock new features and if eligible, receive a share of ads revenue.</p>
+                        <button class="w-[45%] py-2 font-bold px-3 bg-primary rounded-full">Subscribe</button>
+                    </div>
+                    <div class="w-full bg-slate-700 rounded-2xl p-3">
+                        <h2 class="text-xl font-bold text-white p-3">What's happening</h2>
+                        <div class="flex flex-col gap-3">
+                            <div class="card p-3 flex items-start justify-between">
+                                <div class="left">
+                                    <p class="text-sm text-[#aaa]">Premier League 	&middot; Last Night</p>
+                                    <p class="font-semibold">Man United vs Chelsea FC</p>
+                                </div>
+                                <div class="right rounded-md w-[70px] h-[80px] bg-center" style="background-image: url('imgs/ash.webp');">
+                                </div>
+                            </div>
+                            <div class="card p-2 flex items-start justify-between">
+                                <div class="left">
+                                    <p class="text-sm text-[#aaa]">Music &middot; Trending</p>
+                                    <p class="font-semibold">hailey</p>
+                                    <p class="text-sm text-[#aaa]">11.2k posts</p>
+                                </div>
+                                <span class="font-bold text-[#ccc]"> ... 
+                                </span>
+                            </div>
+                            <div class="card p-2 flex items-start justify-between">
+                                <div class="left">
+                                    <p class="text-sm text-[#aaa]">Entertainment &middot; Trending</p>
+                                    <p class="font-semibold">#Thalapathy68</p>
+                                    <p class="text-sm text-[#aaa]">Trending with <span class="text-primary font-bold">#PriyankaMohan</span></p>
+                                </div>
+                                <span class="font-bold text-[#ccc]"> ... 
+                                </span>
+                            </div>
+                            <div class="card p-2 flex items-start justify-between">
+                                <div class="left">
+                                    <p class="text-sm text-[#aaa]">Entertainment &middot; Trending</p>
+                                    <p class="font-semibold">#BiggBoss17</p>
+                                    <p class="text-sm text-[#aaa]">3,989 posts</p>
+                                </div>
+                                <span class="font-bold text-[#ccc]"> ... 
+                                </span>
+                            </div>
+                            <div class="card p-2 flex items-start justify-between">
+                                <div class="left">
+                                    <p class="text-sm text-[#aaa]">Entertainment &middot; Trending</p>
+                                    <p class="font-semibold">#DreamGirl2</p>
+                                    <p class="text-sm text-[#aaa]">7,286 posts</p>
+                                </div>
+                                <span class="font-bold text-[#ccc]"> ... 
+                                </span>
+                            </div>
+                            <div class="p-2 ">
+                                <span class="font-bold text-base text-primary">Show More</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-full bg-slate-700 rounded-2xl my-2">
+                        <h1 class="text-xl font-bold text-white px-5 py-3">Who to follow</h1>
+                        <div class="">
+                            <div class="card mx-3 p-3 flex items-center justify-between ">
+                                <div class="right flex gap-3 items-center">
+                                    <div class="">
+                                        <img
+                                            class="h-10 rounded-full cursor-pointer"
+                                            src="imgs/pfp.jpeg"
+                                            alt=""
+                                        />
+                                    </div>
+                                    <div>
+                                        <p class="text-white font-bold">kenister</p>
+                                        <p class="text-[#aaa]">@ken43657</p>
+                                    </div>
+                                </div>
+                                <button class="bg-white text-black font-bold py-2 px-6 hover:bg-[#ccc] rounded-full">Follow</button>
+                            </div>
+                            <div class="card mx-3 p-3 flex items-center justify-between ">
+                                <div class="right flex gap-3 items-center">
+                                    <div class="">
+                                        <img
+                                            class="h-10 rounded-full cursor-pointer"
+                                            src="imgs/pfp.jpeg"
+                                            alt=""
+                                        />
+                                    </div>
+                                    <div>
+                                        <p class="text-white font-bold">kenister</p>
+                                        <p class="text-[#aaa]">@ken43657</p>
+                                    </div>
+                                </div>
+                                <button class="bg-white text-black font-bold py-2 px-6 hover:bg-[#ccc] rounded-full">Follow</button>
+                            </div>
+                            <div class="card mx-3 p-3 flex items-center justify-between">
+                                <div class="right flex gap-3 items-center">
+                                    <div class="">
+                                        <img
+                                            class="h-10 rounded-full cursor-pointer"
+                                            src="imgs/pfp.jpeg"
+                                            alt=""
+                                        />
+                                    </div>
+                                    <div>
+                                        <p class="text-white font-bold">kenister</p>
+                                        <p class="text-[#aaa]">@ken43657</p>
+                                    </div>
+                                </div>
+                                <button class="bg-white text-black font-bold py-2 px-6 hover:bg-[#ccc] rounded-full">Follow</button>
+                            </div>
+                        </div>
+                        <p class="p-4 mx-3 text-primary font-bold">Show More</p>
+                    </div>
+                    <footer class="p-3 ">
+                        <ul class="flex gap-4 mb-2 hover:"> 
+                            <li class="text-sm text-[#aaa]"><a href="#" class="hover:underline">Terms of Service</a></li>
+                            <li class="text-sm text-[#aaa]"><a href="#" class="hover:underline">Privacy Policy</a></li>
+                            <li class="text-sm text-[#aaa]"><a href="#" class="hover:underline">Cookie Policy</a></li>
+                        </ul>
+                        <ul class="flex gap-4 mb-2">
+                            <li class="text-sm text-[#aaa]"><a href="#" class="hover:underline">Accessibility</a></li>
+                            <li class="text-sm text-[#aaa]"><a href="#" class="hover:underline">Ads Info</a></li>
+                            <li class="text-sm text-[#aaa]"><a href="#" class="hover:underline">More...</a></li>
+                            <li class="text-sm text-[#aaa]"><a href="#" class="hover:underline">&copy; 2023 X Corp.</a></li>
+                        </ul>
+                    </footer>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
